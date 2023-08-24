@@ -1,0 +1,23 @@
+
+----------------------------------------------
+Sequential Convolution starting...
+
+MapSMtoCores for SM 7.5 is undefined.  Default to use 128 Cores/SM
+GPU Device 0: "GeForce GTX 1660 Ti" with compute capability 7.5
+
+Loaded 'tree_bw.pgm', 960 x 960 pixels
+Timing sequential implementation...
+
+Time taken for SharpeningMask:	65.245325ms
+Time taken for SobelMask:	62.529293ms
+Time taken for AveragingMask:	61.901981ms
+
+Programming speed for SharpeningMask: 14.13Mpixels/sec
+Programming speed for SobelMask: 14.74Mpixels/sec
+Programming speed for AveragingMask: 14.89Mpixels/sec
+
+Wrote './data/tree_bw_out_Sharpened_1.pgm'
+Wrote './data/tree_bw_out_EdgeDetected_1.pgm'
+Wrote './data/tree_bw_out_Averaged_1.pgm'
+
+Sequential Convolution completed

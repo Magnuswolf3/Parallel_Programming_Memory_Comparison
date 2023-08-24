@@ -1,0 +1,30 @@
+
+----------------------------------------------
+Shared Convolution starting...
+
+MapSMtoCores for SM 7.5 is undefined.  Default to use 128 Cores/SM
+GPU Device 0: "GeForce GTX 1660 Ti" with compute capability 7.5
+
+Loaded 'tree_bw.pgm', 960 x 960 pixels
+Timing global implementation...
+
+Time taken for SharpeningMask:	0.083968ms
+Time taken for SobelMask:	0.082112ms
+Time taken for AveragingMask:	0.083776ms
+
+Programming speed for SharpeningMask: 10975.61Mpixels/sec
+Programming speed for SobelMask: 11223.69Mpixels/sec
+Programming speed for AveragingMask: 11000.76Mpixels/sec
+
+Speedup for Sharpening Mask (SerialTime/GlobalTime): 	721.643197x
+Speedup for Sobel Mask (SerialTime/GlobalTime): 	734.248337x
+Speedup for Averaging Mask (SerialTime/GlobalTime): 	722.951693x
+
+Wrote './data/tree_bw_out_Sharpened_1.pgm'
+Wrote './data/tree_bw_out_EdgeDetected_1.pgm'
+Wrote './data/tree_bw_out_Averaged_1.pgm'
+Wrote './data/tree_bw_out_Sharpened_3.pgm'
+Wrote './data/tree_bw_out_EdgeDetected_3.pgm'
+Wrote './data/tree_bw_out_Averaged_3.pgm'
+
+Shared Convolution completed
