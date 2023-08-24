@@ -1,0 +1,30 @@
+
+----------------------------------------------
+Texture Convolution starting...
+
+MapSMtoCores for SM 7.5 is undefined.  Default to use 128 Cores/SM
+GPU Device 0: "GeForce GTX 1660 Ti" with compute capability 7.5
+
+Loaded 'tree_bw.pgm', 960 x 960 pixels
+Timing texture implementation...
+
+Time taken for SharpeningMask:	0.108704ms
+Time taken for SobelMask:	0.108544ms
+Time taken for AveragingMask:	0.108544ms
+
+Programming speed for SharpeningMask: 8478.07Mpixels/sec
+Programming speed for SobelMask: 8490.57Mpixels/sec
+Programming speed for AveragingMask: 8490.57Mpixels/sec
+
+Speedup for Sharpening Mask (SerialTime/GlobalTime): 	582.341594x
+Speedup for Sobel Mask (SerialTime/GlobalTime): 	558.067229x
+Speedup for Averaging Mask (SerialTime/GlobalTime): 	559.003835x
+
+Wrote './data/tree_bw_out_Sharpened_1.pgm'
+Wrote './data/tree_bw_out_EdgeDetected_1.pgm'
+Wrote './data/tree_bw_out_Averaged_1.pgm'
+Wrote './data/tree_bw_out_Sharpened_4.pgm'
+Wrote './data/tree_bw_out_EdgeDetected_4.pgm'
+Wrote './data/tree_bw_out_Averaged_4.pgm'
+
+Texture Convolution completed
